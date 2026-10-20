@@ -22,36 +22,48 @@ def epoch_ms_to_datetime(ms):
         return None
 
 def parse_live_matches(data):
-    """Flatten the nested live-matches JSON into a list of match dicts."""
+    """Flatten nested live-matches JSON into a list of match dictionaries."""
     matches_list = []
 
     for type_block in data.get("typeMatches", []):
         for series in type_block.get("seriesMatches", []):
-            # Some entries are ads, so skip them
+            # Skip entries that are ads rather than series
             if "seriesAdWrapper" not in series:
                 continue
 
             wrapper = series["seriesAdWrapper"]
             series_name = wrapper.get("seriesName")
+            series_id = wrapper.get("seriesId")
 
             for match in wrapper.get("matches", []):
                 info = match.get("matchInfo", {})
-                team1 = info.get("team1", {})
-                team2 = info.get("team2", {})
-                venue = info.get("venueInfo", {})
+                team1 = info.get("team1") or {}
+                team2 = info.get("team2") or {}
+                venue = info.get("venueInfo") or {}
 
                 row = {
                     "match_id": info.get("matchId"),
+                    "series_id": series_id,
                     "series_name": series_name,
                     "match_desc": info.get("matchDesc"),
                     "format": info.get("matchFormat"),
+                    "team1_id": team1.get("teamId"),
                     "team1": team1.get("teamName"),
+                    "team1_short": team1.get("teamSName"),
+                    "team2_id": team2.get("teamId"),
                     "team2": team2.get("teamName"),
+                    "team2_short": team2.get("teamSName"),
+                    "venue_id": venue.get("id"),
                     "venue": venue.get("ground"),
                     "city": venue.get("city"),
+                    "country": venue.get("country"),
                     "status": info.get("status"),
-                    "start_date": epoch_ms_to_datetime(info.get("startDate")),
+                    "state": info.get("state"),
+                    "start_date": epoch_ms_to_datetime(
+                        info.get("startDate")
+                    ),
                 }
+
                 matches_list.append(row)
 
     return matches_list
