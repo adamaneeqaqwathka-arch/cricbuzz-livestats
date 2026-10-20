@@ -1,0 +1,42 @@
+# Secrets (never commit API keys or DB passwords)
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and data dumps
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+
+# Logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
