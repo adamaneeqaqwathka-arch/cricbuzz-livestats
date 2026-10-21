@@ -14,7 +14,7 @@ HEADERS = {
 }
 
 # Paste the scorecard URL you used before (the one that returned "scorecard")
-URL = "https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/40381/scard"
+URL = "https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/168090/scard"
 PARAMS = {}
 
 # 2. Request
