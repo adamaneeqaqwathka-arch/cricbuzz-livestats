@@ -1,0 +1,164 @@
+{
+  "headers": [
+    "ROWHEADER",
+    "Test",
+    "ODI",
+    "T20",
+    "IPL"
+  ],
+  "values": [
+    {
+      "values": [
+        "Matches",
+        "52",
+        "91",
+        "100",
+        "158"
+      ]
+    },
+    {
+      "values": [
+        "Innings",
+        "78",
+        "27",
+        "12",
+        "33"
+      ]
+    },
+    {
+      "values": [
+        "Runs",
+        "348",
+        "111",
+        "12",
+        "75"
+      ]
+    },
+    {
+      "values": [
+        "Balls",
+        "843",
+        "172",
+        "18",
+        "86"
+      ]
+    },
+    {
+      "values": [
+        "Highest",
+        "34",
+        "20",
+        "7",
+        "16"
+      ]
+    },
+    {
+      "values": [
+        "Average",
+        "6.57",
+        "9.25",
+        "2",
+        "9.38"
+      ]
+    },
+    {
+      "values": [
+        "SR",
+        "41.29",
+        "64.54",
+        "66.67",
+        "87.21"
+      ]
+    },
+    {
+      "values": [
+        "Not Out",
+        "25",
+        "15",
+        "6",
+        "25"
+      ]
+    },
+    {
+      "values": [
+        "Fours",
+        "38",
+        "13",
+        "2",
+        "6"
+      ]
+    },
+    {
+      "values": [
+        "Sixes",
+        "11",
+        "2",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "values": [
+        "Ducks",
+        "28",
+        "5",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "values": [
+        "50s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "100s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "200s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "300s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "400s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "Jasprit Bumrah Profile - Cricbuzz | Cricbuzz.com",
+    "webURL": "http://www.cricbuzz.com/profiles/9311/jasprit-bumrah"
+  },
+  "seriesSpinner": [
+    {
+      "seriesName": "Career"
+    }
+  ]
+}

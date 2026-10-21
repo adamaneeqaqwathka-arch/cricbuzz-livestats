@@ -242,3 +242,8 @@ CREATE TABLE IF NOT EXISTS player_career_stats (
 -- =====================================================
 
 SHOW TABLES;
+
+
+ALTER TABLE team_innings ADD UNIQUE (match_id, innings_no);
+ALTER TABLE bowling_innings ADD UNIQUE (match_id, innings_no, player_id);
+

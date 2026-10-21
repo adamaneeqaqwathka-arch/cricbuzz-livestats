@@ -1,0 +1,150 @@
+{
+  "headers": [
+    "ROWHEADER",
+    "Test",
+    "ODI",
+    "T20",
+    "IPL"
+  ],
+  "values": [
+    {
+      "values": [
+        "Matches",
+        "76",
+        "91",
+        "57",
+        "80"
+      ]
+    },
+    {
+      "values": [
+        "Innings",
+        "140",
+        "91",
+        "57",
+        "80"
+      ]
+    },
+    {
+      "values": [
+        "Balls",
+        "15003",
+        "4713",
+        "1254",
+        "1809"
+      ]
+    },
+    {
+      "values": [
+        "Runs",
+        "7240",
+        "4133",
+        "1556",
+        "2680"
+      ]
+    },
+    {
+      "values": [
+        "Maidens",
+        "543",
+        "46",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "values": [
+        "Wickets",
+        "326",
+        "143",
+        "66",
+        "87"
+      ]
+    },
+    {
+      "values": [
+        "Avg",
+        "22.21",
+        "28.9",
+        "23.58",
+        "30.8"
+      ]
+    },
+    {
+      "values": [
+        "Eco",
+        "2.9",
+        "5.26",
+        "7.44",
+        "8.89"
+      ]
+    },
+    {
+      "values": [
+        "SR",
+        "46.02",
+        "32.96",
+        "19.0",
+        "20.79"
+      ]
+    },
+    {
+      "values": [
+        "BBI",
+        "6/23",
+        "5/70",
+        "3/15",
+        "4/34"
+      ]
+    },
+    {
+      "values": [
+        "BBM",
+        "10/62",
+        "5/70",
+        "3/15",
+        "4/34"
+      ]
+    },
+    {
+      "values": [
+        "4w",
+        "17",
+        "6",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "values": [
+        "5w",
+        "14",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "10w",
+        "2",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "Pat Cummins Profile - Cricbuzz | Cricbuzz.com",
+    "webURL": "http://www.cricbuzz.com/profiles/8095/pat-cummins"
+  },
+  "seriesSpinner": [
+    {
+      "seriesName": "Career"
+    },
+    {
+      "seriesId": 11595,
+      "seriesName": "Australia tour of South Africa, 2026"
+    }
+  ]
+}

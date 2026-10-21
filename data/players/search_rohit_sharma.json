@@ -1,0 +1,26 @@
+{
+  "player": [
+    {
+      "id": "576",
+      "name": "Rohit Sharma",
+      "teamName": "India",
+      "faceImageId": 616514,
+      "dob": "1987-04-30"
+    },
+    {
+      "id": "10659",
+      "name": "Rohit Sharma",
+      "teamName": "India",
+      "faceImageId": 182026,
+      "dob": "1994-09-05"
+    },
+    {
+      "id": "1475202",
+      "name": "Rohit Sharma",
+      "teamName": "Indonesia",
+      "faceImageId": 182026,
+      "dob": "1986-05-02"
+    }
+  ],
+  "category": "Rohit Sharma"
+}

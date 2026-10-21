@@ -1,0 +1,146 @@
+{
+  "headers": [
+    "ROWHEADER",
+    "Test",
+    "ODI",
+    "T20",
+    "IPL"
+  ],
+  "values": [
+    {
+      "values": [
+        "Matches",
+        "110",
+        "175",
+        "93",
+        "79"
+      ]
+    },
+    {
+      "values": [
+        "Innings",
+        "67",
+        "65",
+        "12",
+        "2"
+      ]
+    },
+    {
+      "values": [
+        "Balls",
+        "2151",
+        "1467",
+        "118",
+        "18"
+      ]
+    },
+    {
+      "values": [
+        "Runs",
+        "1207",
+        "1310",
+        "164",
+        "31"
+      ]
+    },
+    {
+      "values": [
+        "Maidens",
+        "48",
+        "2",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "Wickets",
+        "30",
+        "37",
+        "6",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "Avg",
+        "40.23",
+        "35.41",
+        "27.33",
+        "0.0"
+      ]
+    },
+    {
+      "values": [
+        "Eco",
+        "3.37",
+        "5.36",
+        "8.34",
+        "10.33"
+      ]
+    },
+    {
+      "values": [
+        "SR",
+        "71.7",
+        "39.65",
+        "19.67",
+        "0.0"
+      ]
+    },
+    {
+      "values": [
+        "BBI",
+        "4/44",
+        "4/22",
+        "2/16",
+        "0/7"
+      ]
+    },
+    {
+      "values": [
+        "BBM",
+        "4/44",
+        "4/22",
+        "2/16",
+        "0/7"
+      ]
+    },
+    {
+      "values": [
+        "4w",
+        "1",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "5w",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "10w",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "Kane Williamson Profile - Cricbuzz | Cricbuzz.com",
+    "webURL": "http://www.cricbuzz.com/profiles/6326/kane-williamson"
+  },
+  "seriesSpinner": [
+    {
+      "seriesName": "Career"
+    }
+  ]
+}

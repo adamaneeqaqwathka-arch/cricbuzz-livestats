@@ -1,0 +1,168 @@
+{
+  "headers": [
+    "ROWHEADER",
+    "Test",
+    "ODI",
+    "T20",
+    "IPL"
+  ],
+  "values": [
+    {
+      "values": [
+        "Matches",
+        "76",
+        "91",
+        "57",
+        "80"
+      ]
+    },
+    {
+      "values": [
+        "Innings",
+        "112",
+        "60",
+        "27",
+        "53"
+      ]
+    },
+    {
+      "values": [
+        "Runs",
+        "1659",
+        "548",
+        "158",
+        "642"
+      ]
+    },
+    {
+      "values": [
+        "Balls",
+        "3475",
+        "709",
+        "133",
+        "421"
+      ]
+    },
+    {
+      "values": [
+        "Highest",
+        "64",
+        "37",
+        "28",
+        "66"
+      ]
+    },
+    {
+      "values": [
+        "Average",
+        "16.93",
+        "14.42",
+        "10.53",
+        "19.45"
+      ]
+    },
+    {
+      "values": [
+        "SR",
+        "47.74",
+        "77.30",
+        "118.80",
+        "152.50"
+      ]
+    },
+    {
+      "values": [
+        "Not Out",
+        "14",
+        "22",
+        "12",
+        "20"
+      ]
+    },
+    {
+      "values": [
+        "Fours",
+        "160",
+        "45",
+        "11",
+        "40"
+      ]
+    },
+    {
+      "values": [
+        "Sixes",
+        "39",
+        "12",
+        "7",
+        "44"
+      ]
+    },
+    {
+      "values": [
+        "Ducks",
+        "14",
+        "8",
+        "4",
+        "4"
+      ]
+    },
+    {
+      "values": [
+        "50s",
+        "3",
+        "0",
+        "0",
+        "3"
+      ]
+    },
+    {
+      "values": [
+        "100s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "200s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "300s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "values": [
+        "400s",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "Pat Cummins Profile - Cricbuzz | Cricbuzz.com",
+    "webURL": "http://www.cricbuzz.com/profiles/8095/pat-cummins"
+  },
+  "seriesSpinner": [
+    {
+      "seriesName": "Career"
+    },
+    {
+      "seriesId": 11595,
+      "seriesName": "Australia tour of South Africa, 2026"
+    }
+  ]
+}
