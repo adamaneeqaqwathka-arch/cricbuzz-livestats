@@ -1,0 +1,30 @@
+{
+  "id": "1459485",
+  "bat": "Right Handed Bat",
+  "bowl": "Right-arm legbreak",
+  "name": "Aryaveer Kohli",
+  "fullName": "Aryaveer Kohli",
+  "role": "Bowler",
+  "intlTeam": "India",
+  "teams": "South Delhi Superstarz, Central Delhi Kings",
+  "image": "http://i.cricketcb.com/stats/img/faceImages/1459485.jpg",
+  "appIndex": {
+    "seoTitle": "Aryaveer Kohli Profile - Cricbuzz | Cricbuzz.com",
+    "webURL": "http://www.cricbuzz.com/profiles/1459485/aryaveer-kohli"
+  },
+  "faceImageId": 182026,
+  "teamNameIds": [
+    {
+      "teamId": "2590",
+      "teamName": "South Delhi Superstarz"
+    },
+    {
+      "teamId": "2620",
+      "teamName": "Central Delhi Kings"
+    }
+  ],
+  "playerTeamIds": "2590, 2620",
+  "intlTeamImageId": 776162,
+  "recentBatting": {},
+  "recentBowling": {}
+}
