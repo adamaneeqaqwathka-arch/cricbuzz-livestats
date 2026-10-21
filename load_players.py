@@ -38,7 +38,7 @@ PLAYERS = [
     ("Pat Cummins", "Australia"),
     ("Steve Smith", "Australia"),
     ("Kane Williamson", "New Zealand"),
-    ("Steven Smith", "Australia"),
+    ("Steven Peter Devereux Smith", "Australia"),
 ]
 
 
