@@ -1,0 +1,236 @@
+full_name	playing_role	batting_style	bowling_style
+Jasprit Jasbirsingh Bumrah	Bowler	Right Handed Bat	Right-arm fast
+Mahendra Singh Dhoni	WK-Batsman	Right Handed Bat	Right-arm medium
+Ravindrasinh Anirudhsinh Jadeja	Bowling Allrounder	Left Handed Bat	Left-arm orthodox
+Rohit Gurunath Sharma	Batsman	Right Handed Bat	Right-arm offbreak
+Virat Kohli	Batsman	Right Handed Bat	Right-arm medium
+match_desc	team1	team2	venue_name	city	match_date
+2nd T20I	Australia Women	New Zealand Women	North Sydney Oval	Sydney	2026-10-20 13:45:00
+2nd Match	Pakistan	England	Rawalpindi Cricket Stadium	Rawalpindi	2026-10-20 13:30:00
+Semi Final 2	Sydney Thunder Women	Sydney Sixers Women	Cricket Central	Sydney	2026-10-20 09:00:00
+6th Match	New South Wales	Western Australia	W.A.C.A. Ground	Perth	2026-10-19 08:00:00
+5th Match	South Australia	Queensland	Adelaide Oval	Adelaide	2026-10-19 05:30:00
+4th Match	Tasmania	Victoria	Bellerive Oval	Hobart	2026-10-19 05:00:00
+2nd Test	South Africa	Australia	St George's Park	Gqeberha	2026-10-18 13:30:00
+Elite Group A	Jammu and Kashmir	Vidarbha	Sher-i-Kashmir Stadium	Srinagar	2026-10-18 09:30:00
+Elite Group A	Uttar Pradesh	Goa	Green Park	Kanpur	2026-10-18 09:30:00
+Elite Group B	Hyderabad	Andhra	Devineni Venkata Ramana Praneetha Ground, Mulapadu	Vijayawada	2026-10-18 09:30:00
+Elite Group B	Karnataka	Saurashtra	KSCA Cricket Ground	Alur	2026-10-18 09:30:00
+Elite Group B	Punjab	Chhattisgarh	PCA International Cricket Stadium, Ground A	New Chandigarh	2026-10-18 09:30:00
+Elite Group A	Puducherry	Madhya Pradesh	Cricket Association Puducherry Siechem Ground	Puducherry	2026-10-18 09:30:00
+Elite Group C	Jharkhand	Maharashtra	Maharashtra Cricket Association Stadium	Pune	2026-10-18 09:30:00
+Elite Group C	Delhi	Gujarat	Palam B Stadium	Delhi	2026-10-18 09:30:00
+Elite Group C	Bengal	Services	Palam A Stadium	Delhi	2026-10-18 09:30:00
+Elite Group C	Kerala	Odisha	Greenfield International Stadium	Thiruvananthapuram	2026-10-18 09:30:00
+Elite Group D	Himachal Pradesh	Mumbai	Lohnu Cricket Ground	Bilaspur	2026-10-18 09:30:00
+Elite Group D	Uttarakhand	Tamil Nadu	MA Chidambaram Stadium	Chennai	2026-10-18 09:30:00
+Elite Group D	Rajasthan	Railways	Sawai Mansingh Stadium	Jaipur	2026-10-18 09:30:00
+Elite Group A	Bihar	Baroda	Reliance Stadium	Vadodara	2026-10-18 09:30:00
+Plate	Arunachal Pradesh	Sikkim	Gokulbhai Somabhai Patel Stadium	Nadiad	2026-10-18 09:30:00
+Elite Group B	Assam	Tripura	Barsapara Cricket Stadium	Guwahati	2026-10-18 08:45:00
+Plate	Mizoram	Nagaland	Nagaland Cricket Stadium, Sovima	Dimapur	2026-10-18 08:30:00
+Plate	Meghalaya	Manipur	Meghalaya Cricket Association Cricket Ground	Shillong	2026-10-18 08:30:00
+player_name	total_runs	batting_average	centuries
+Virat Kohli	15109	58.79	55
+Rohit Gurunath Sharma	12120	49.27	35
+Mahendra Singh Dhoni	10773	50.58	10
+Kane Stuart Williamson	7256	48.70	15
+Steven Peter Devereux Smith	5800	43.28	12
+Ben Stokes	3463	41.23	5
+Ravindrasinh Anirudhsinh Jadeja	2905	32.28	0
+Patrick James Cummins	548	14.42	0
+Jasprit Jasbirsingh Bumrah	111	9.25	0
+venue_name	city	country	capacity
+Narendra Modi Stadium	Ahmedabad	India	132000
+Melbourne Cricket Ground	Melbourne	Australia	100000
+Eden Gardens	Kolkata	India	66000
+Optus Stadium	Perth	Australia	60000
+Adelaide Oval	Adelaide	Australia	53500
+team_name	total_wins
+Assam	1
+Bengal	1
+Sikkim	1
+Sydney Sixers Women	1
+Tamil Nadu	1
+playing_role	player_count
+Unknown	87
+Batsman	4
+Bowler	2
+WK-Batsman	1
+Bowling Allrounder	1
+Batting Allrounder	1
+format	highest_score
+ODI	264
+Test	258
+T20I	122
+player_name	total_runs	total_wickets	format
+Ben Stokes	7273	252	Test
+Ravindrasinh Anirudhsinh Jadeja	4160	356	Test
+Ben Stokes	3463	74	ODI
+Ravindrasinh Anirudhsinh Jadeja	2905	234	ODI
+match_desc	team1	team2	winning_team	victory_margin	victory_type	venue_name
+Semi Final 2	Sydney Thunder Women	Sydney Sixers Women	Sydney Sixers Women	4	wickets	Cricket Central
+Elite Group D	Uttarakhand	Tamil Nadu	Tamil Nadu	66	runs	MA Chidambaram Stadium
+Elite Group C	Bengal	Services	Bengal	60	runs	Palam A Stadium
+Plate	Arunachal Pradesh	Sikkim	Sikkim	328	runs	Gokulbhai Somabhai Patel Stadium
+Elite Group B	Assam	Tripura	Assam	9	wickets	Barsapara Cricket Stadium
+player_name	test_runs	odi_runs	t20i_runs	overall_batting_avg
+Virat Kohli	9230	15109	4188	52.83
+Kane Stuart Williamson	9515	7256	2575	48.12
+Steven Peter Devereux Smith	10989	5800	1094	47.68
+Mahendra Singh Dhoni	4876	10773	1617	44.96
+Rohit Gurunath Sharma	4301	12120	4231	42.67
+Ben Stokes	7273	3463	585	35.16
+Ravindrasinh Anirudhsinh Jadeja	4160	2905	515	33.84
+Patrick James Cummins	1659	548	158	15.66
+Jasprit Jasbirsingh Bumrah	348	111	12	6.64
+batter_1	batter_2	partnership_runs	innings_no	match_id
+Pradosh Ranjan Paul	Baba Indrajith	171	2	163761
+Manisankar Murasingh	Sentu Sarkar	136	3	163691
+player_name	avg_runs_per_innings	close_matches_played	close_matches_won
+Laura Harris	63.00	1	0
+Lauren Cheatle	46.00	1	1
+Lauren Kua	35.00	1	1
+Heather Knight	27.00	1	0
+Elsa Hunter	22.00	1	1
+Sarah Coyte	16.00	1	1
+Caoimhe Bray	12.00	1	1
+Jemma Barsby	11.00	1	0
+Tahlia Wilson	10.00	1	0
+Courtney Sippel	9.00	1	1
+Alexandra Mavros	8.00	1	0
+Nicola Hancock	7.00	1	0
+Emily Powell	6.00	1	0
+Hasrat Gill	4.00	1	0
+Samantha Bates	2.00	1	0
+Lucy Finn	1.00	1	0
+Erin Burns	0.00	1	1
+Maitlan Brown	0.00	1	1
+Anika Learoyd	0.00	1	0
+player_name	format	economy_rate	total_wickets	matches
+Jasprit Jasbirsingh Bumrah	ODI	4.58	151	91
+Ravindrasinh Anirudhsinh Jadeja	ODI	4.91	234	212
+Mahendra Singh Dhoni	ODI	5.17	1	350
+Rohit Gurunath Sharma	ODI	5.24	9	291
+Patrick James Cummins	ODI	5.26	143	91
+Kane Stuart Williamson	ODI	5.36	37	175
+Steven Peter Devereux Smith	ODI	5.41	28	170
+Ben Stokes	ODI	6.05	74	114
+Virat Kohli	ODI	6.16	5	317
+Jasprit Jasbirsingh Bumrah	T20I	6.53	126	100
+player_name	avg_runs	runs_std_dev	innings
+Pradipta Pramanik	11.50	0.71	2
+Shubham Rohilla	18.00	1.41	2
+Nakul Sharma	11.50	2.12	2
+Rahul Singh	2.50	2.12	2
+Lakshya Rajesh Raichandani	17.00	2.83	2
+Devender Lohchab	7.00	2.83	2
+Arjun Sharma	7.50	4.95	2
+Kunal Chandela	11.00	7.07	2
+Ankur Paul	9.50	7.78	2
+Sumanta Gupta	22.00	8.49	2
+Ravi Chauhan	7.00	8.49	2
+Nibir Deka	26.50	10.61	2
+Sudip Kumar Gharami	30.50	10.61	2
+Abishek Porel	16.00	12.73	2
+Vineet Dhankhar	12.00	12.73	2
+Mayank Mishra	22.50	14.85	2
+Dega Nischal	14.00	15.56	2
+Sridam Paul	18.50	17.68	2
+Abhimanyu Easwaran	43.00	18.38	2
+Rishav Das	23.50	19.09	2
+Nitin Tanwar	32.50	23.33	2
+Avneesh Sudha	36.00	25.46	2
+Rajat Paliwal	27.00	29.7	2
+Sentu Sarkar	35.00	33.94	2
+Manisankar Murasingh	89.00	101.82	2
+player_name	test_matches	odi_matches	t20_matches	test_avg	odi_avg	t20_avg
+Virat Kohli	123	317	125	46.85	58.79	48.70
+Mahendra Singh Dhoni	90	350	98	38.09	50.58	37.60
+Rohit Gurunath Sharma	67	291	159	40.58	49.27	32.05
+Kane Stuart Williamson	110	175	93	54.06	48.70	33.44
+Ravindrasinh Anirudhsinh Jadeja	91	212	74	37.82	32.28	21.46
+Steven Peter Devereux Smith	127	170	67	55.78	43.28	24.86
+Ben Stokes	122	114	43	34.47	41.23	21.67
+Jasprit Jasbirsingh Bumrah	52	91	100	6.57	9.25	2.00
+Patrick James Cummins	76	91	57	16.93	14.42	10.53
+format	rank_in_format	player_name	batting_points	bowling_points	fielding_points	total_points
+ODI	1	Ravindrasinh Anirudhsinh Jadeja	70.86	476.79	0	547.65
+ODI	2	Jasprit Jasbirsingh Bumrah	25.10	317.97	0	343.07
+ODI	3	Patrick James Cummins	35.88	298.03	0	333.91
+ODI	4	Ben Stokes	83.95	151.71	0	235.66
+ODI	5	Kane Stuart Williamson	121.39	82.58	0	203.97
+ODI	6	Rohit Gurunath Sharma	173.85	14.91	0	188.76
+ODI	7	Virat Kohli	208.80	-33.32	0	175.48
+ODI	8	Mahendra Singh Dhoni	159.29	13.16	0	172.45
+ODI	9	Steven Peter Devereux Smith	105.73	64.84	0	170.57
+T20I	1	Jasprit Jasbirsingh Bumrah	21.12	266.84	0	287.96
+T20I	2	Patrick James Cummins	42.49	142.33	0	184.82
+T20I	3	Ravindrasinh Anirudhsinh Jadeja	54.03	115.82	0	169.85
+T20I	4	Ben Stokes	55.09	55.76	0	110.85
+T20I	5	Virat Kohli	107.35	3.40	0	110.75
+T20I	6	Steven Peter Devereux Smith	61.01	44.30	0	105.31
+T20I	7	Kane Stuart Williamson	79.36	18.66	0	98.02
+T20I	8	Mahendra Singh Dhoni	72.81	0.00	0	72.81
+T20I	9	Rohit Gurunath Sharma	100.61	-37.44	0	63.17
+Test	1	Ravindrasinh Anirudhsinh Jadeja	77.12	731.17	0	808.29
+Test	2	Patrick James Cummins	39.38	672.10	0	711.47
+Test	3	Ben Stokes	107.52	518.85	0	626.37
+Test	4	Jasprit Jasbirsingh Bumrah	19.15	489.57	0	508.72
+Test	5	Kane Stuart Williamson	137.77	70.15	0	207.92
+Test	6	Steven Peter Devereux Smith	153.97	40.26	0	194.22
+Test	7	Virat Kohli	132.40	0.00	0	132.40
+Test	8	Mahendra Singh Dhoni	85.54	0.00	0	85.54
+Test	9	Rohit Gurunath Sharma	80.42	-22.02	0	58.40
+team_a	team_b	venue_name	matches	wins_batting_first	wins_bowling_first
+Assam	Tripura	Barsapara Cricket Stadium	1	1	0
+Sydney Sixers Women	Sydney Thunder Women	Cricket Central	1	0	1
+Tamil Nadu	Uttarakhand	MA Chidambaram Stadium	1	0	1
+player_name	avg_last_5	avg_last_10	strike_rate_last_5	strike_rate_last_10	scores_50_plus	consistency_std_dev	form_category
+Manisankar Murasingh	89.00	89.00	92.23	92.23	1	101.82	Excellent Form
+Abhimanyu Easwaran	43.00	43.00	49.71	49.71	1	18.38	Good Form
+Avneesh Sudha	36.00	36.00	48.00	48.00	1	25.46	Good Form
+Sentu Sarkar	35.00	35.00	51.09	51.09	1	33.94	Good Form
+Nitin Tanwar	32.50	32.50	43.05	43.05	0	23.33	Average Form
+Sudip Kumar Gharami	30.50	30.50	41.50	41.50	0	10.61	Average Form
+Rajat Paliwal	27.00	27.00	32.34	32.34	0	29.7	Average Form
+Nibir Deka	26.50	26.50	35.10	35.10	0	10.61	Average Form
+Rishav Das	23.50	23.50	38.84	38.84	0	19.09	Average Form
+Mayank Mishra	22.50	22.50	32.61	32.61	0	14.85	Average Form
+Sumanta Gupta	22.00	22.00	48.35	48.35	0	8.49	Average Form
+Sridam Paul	18.50	18.50	86.05	86.05	0	17.68	Poor Form
+Shubham Rohilla	18.00	18.00	32.14	32.14	0	1.41	Poor Form
+Lakshya Rajesh Raichandani	17.00	17.00	54.84	54.84	0	2.83	Poor Form
+Abishek Porel	16.00	16.00	78.05	78.05	0	12.73	Poor Form
+Dega Nischal	14.00	14.00	32.56	32.56	0	15.56	Poor Form
+Suraj Sindhu Jaiswal	13.00	13.00	76.47	76.47	0	12.73	Poor Form
+Vineet Dhankhar	12.00	12.00	42.11	42.11	0	12.73	Poor Form
+Pradipta Pramanik	11.50	11.50	39.66	39.66	0	0.71	Poor Form
+Nakul Sharma	11.50	11.50	63.89	63.89	0	2.12	Poor Form
+Kunal Chandela	11.00	11.00	30.56	30.56	0	7.07	Poor Form
+Ankur Paul	9.50	9.50	54.29	54.29	0	7.78	Poor Form
+Arjun Sharma	7.50	7.50	16.67	16.67	0	4.95	Poor Form
+Ravi Chauhan	7.00	7.00	26.92	26.92	0	8.49	Poor Form
+Devender Lohchab	7.00	7.00	22.22	22.22	0	2.83	Poor Form
+Jagadeesha Suchith	7.00	7.00	30.43	30.43	0	9.9	Poor Form
+Abhijit K Sarkar	7.00	7.00	46.67	46.67	0	9.9	Poor Form
+Mandeep Singh	6.50	6.50	56.52	56.52	0	4.95	Poor Form
+Ajay Sarkar	6.00	6.00	92.31	92.31	0	1.41	Poor Form
+Mukhtar Hussain	5.50	5.50	137.50	137.50	0	0.71	Poor Form
+Sandip Sarkar	5.50	5.50	28.95	28.95	0	7.78	Poor Form
+Amit Ali	4.00	4.00	30.77	30.77	0	0	Poor Form
+Aarav Mahajan	4.00	4.00	42.11	42.11	0	5.66	Poor Form
+Aamir Gani	3.50	3.50	35.00	35.00	0	2.12	Poor Form
+Rahul Singh	2.50	2.50	12.82	12.82	0	2.12	Poor Form
+Arkaprabha Sinha	2.50	2.50	45.45	45.45	0	2.12	Poor Form
+Shahbaz Ahmed	2.00	2.00	26.67	26.67	0	2.83	Poor Form
+Mohammed Kaif	2.00	2.00	30.77	30.77	0	0	Poor Form
+Bikramkumar Das	2.00	2.00	23.53	23.53	0	1.41	Poor Form
+Sudip Chatterjee	1.50	1.50	20.00	20.00	0	2.12	Poor Form
+Pulkit Narang	1.50	1.50	17.65	17.65	0	2.12	Poor Form
+Janmejay Joshi	1.00	1.00	40.00	40.00	0	1.41	Poor Form
+Saurabh Rawat	0.00	0.00	0.00	0.00	0	0	Poor Form
+Pal Raj Bahadur	0.00	0.00	0.00	0.00	0	0	Poor Form
+Devendra Singh Bora	0.00	0.00	0.00	0.00	0	0	Poor Form
+Aditya Rawat	0.00	0.00	0.00	0.00	0	0	Poor Form
+Hrituraj Roy	0.00	0.00	0.00	0.00	0	0	Poor Form
