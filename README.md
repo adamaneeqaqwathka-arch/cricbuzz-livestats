@@ -1,11 +1,36 @@
 # 🏏 Cricbuzz LiveStats: Real-Time Cricket Insights & SQL-Based Analytics
 
-A multi-page Streamlit dashboard that combines live data from the Cricbuzz
-Cricket API (via RapidAPI) with a MySQL database. It provides live match
-updates, player statistics, 25 SQL analytics questions and full CRUD
-operations on player records.
+A multi-page Streamlit dashboard that combines live data from the Cricbuzz Cricket API (via RapidAPI) with a MySQL database. It provides live match updates, player statistics, 25 SQL analytics questions, and full CRUD operations on player records.
 
 **Skills:** Python · SQL · Streamlit · JSON · REST API · pandas
+
+## Screenshots
+
+### Home
+![Cricbuzz LiveStats home dashboard](assets/home.png)
+
+### Live Matches
+![Live matches page with format filter](assets/live-matches.png)
+
+### Top Player Stats
+![Batting and bowling leaderboards with charts](assets/top-stats.png)
+
+### SQL Queries & Analytics
+![SQL analytics question and query runner](assets/sql-queries.png)
+
+### CRUD Operations
+
+**View player records**
+![View player records](assets/crud-view.png)
+
+**Add a player**
+![Add player form](assets/crud-add-player.png)
+
+**Edit a player**
+![Edit player form](assets/crud-edit-player.png)
+
+**Delete a player**
+![Delete player confirmation](assets/crud-delete-player.png)
 
 ## Features
 
@@ -14,29 +39,20 @@ operations on player records.
 | Home | Project overview, navigation and folder structure |
 | Live Matches | Live, recent and finished matches from the Cricbuzz API, with a format filter |
 | Top Stats | Batting and bowling leaderboards by format (Test, ODI, T20I) with charts |
-| SQL Queries | Runs the 25 analytics questions from `sql/queries.sql`, plus a read-only custom SELECT box |
+| SQL Queries | Runs the 25 analytics questions from `sql/queries.sql`, plus a read-only custom `SELECT` box |
 | CRUD Operations | Add, view, edit and delete player records with validation and transactions |
 
 ## Important note about the data
 
-* **Real data (from the Cricbuzz API):** live matches, teams, venues, series,
-  scorecards of a few completed matches, and profiles and career statistics of
-  nine well-known players.
-* **Seed data:** `sql/seed_venues.sql` adds venue capacities and countries
-  (approximate public figures).
-* **Synthetic sample data:** `generate_sample_data.py` creates 132 matches
-  between four fictional teams ("Sample India", "Sample Australia", ...) so the
-  advanced SQL questions (head-to-head, recent form, quarterly trends, toss
-  analysis, partnerships) have enough rows to test. It is **not real cricket
-  data**. All sample rows use IDs of 90,000,000 and above, and
-  `python generate_sample_data.py --clean` removes them.
+- **Real data (from the Cricbuzz API):** live matches, teams, venues, series, scorecards of a few completed matches, and profiles and career statistics of nine well-known players.
+- **Seed data:** `sql/seed_venues.sql` adds venue capacities and countries (approximate public figures).
+- **Synthetic sample data:** `generate_sample_data.py` creates 132 matches between four fictional teams ("Sample India", "Sample Australia", ...) so the advanced SQL questions (head-to-head, recent form, quarterly trends, toss analysis, partnerships) have enough rows to test. It is **not real cricket data**. All sample rows use IDs of 90,000,000 and above, and `python generate_sample_data.py --clean` removes them.
 
-The free RapidAPI plan has a small request quota, so the project saves API
-responses in `data/` and reuses them instead of calling the API repeatedly.
+The free RapidAPI plan has a small request quota, so the project saves API responses in `data/` and reuses them instead of calling the API repeatedly.
 
 ## Project structure
 
-```
+```text
 CricBuzz/
 ├── app.py                      # Streamlit entry point and navigation
 ├── requirements.txt
@@ -75,10 +91,9 @@ CricBuzz/
 
 ### 1. Requirements
 
-* Python 3.10 or newer
-* MySQL 8.0 or newer (window functions are used in the advanced queries)
-* A RapidAPI account subscribed to the **Cricbuzz Cricket** API (the free
-  plan is enough)
+- Python 3.10 or newer
+- MySQL 8.0 or newer (window functions are used in the advanced queries)
+- A RapidAPI account subscribed to the **Cricbuzz Cricket** API (the free plan is enough)
 
 ### 2. Install
 
@@ -94,7 +109,7 @@ python -m pip install -r requirements.txt
 
 Copy `.env.example` to `.env` and fill in your values:
 
-```
+```dotenv
 RAPIDAPI_KEY=your_rapidapi_key_here
 RAPIDAPI_HOST=cricbuzz-cricket.p.rapidapi.com
 DB_HOST=localhost
@@ -140,49 +155,33 @@ python generate_sample_data.py
 streamlit run app.py
 ```
 
-Always start the app from `app.py` in the project root, so that
-`from utils...` imports work on every page.
+Always start the app from `app.py` in the project root, so that `from utils...` imports work on every page.
 
 ## Database design
 
-Ten tables: `teams`, `venues`, `series`, `players`, `matches`, `team_innings`,
-`batting_innings`, `bowling_innings`, `partnerships` and
-`player_career_stats`. Cricbuzz IDs are used as primary keys, so reloading data
-updates rows (`INSERT ... ON DUPLICATE KEY UPDATE`) instead of duplicating
-them. See `cricbuzz_database_design.md` for the full design, relationships and
-indexes.
+Ten tables: `teams`, `venues`, `series`, `players`, `matches`, `team_innings`, `batting_innings`, `bowling_innings`, `partnerships` and `player_career_stats`. Cricbuzz IDs are used as primary keys, so reloading data updates rows (`INSERT ... ON DUPLICATE KEY UPDATE`) instead of duplicating them. See `cricbuzz_database_design.md` for the full design, relationships and indexes.
 
 ## SQL questions
 
-All 25 questions are in `sql/queries.sql` (beginner Q1-Q8, intermediate
-Q9-Q16, advanced Q17-Q25) and can be run from the **SQL Queries** page.
-Q18, Q22 and Q25 have more than one query (a career-statistics version, a
-venue breakdown and a career-phase summary). The advanced questions use window
-functions, CTEs and conditional aggregation.
+All 25 questions are in `sql/queries.sql` (beginner Q1–Q8, intermediate Q9–Q16, advanced Q17–Q25) and can be run from the **SQL Queries** page. Q18, Q22 and Q25 have more than one query (a career-statistics version, a venue breakdown and a career-phase summary). The advanced questions use window functions, CTEs and conditional aggregation.
 
 ## Error handling and security
 
-* API calls use timeouts and catch request and JSON errors; failures return an
-  empty result and the pages show a warning instead of crashing.
-* Database writes use transactions: `commit` on success, `rollback` on error.
-* All SQL that takes user input uses parameterized queries (`%s`).
-* The custom query box on the SQL Queries page accepts `SELECT` and `WITH`
-  queries only.
-* API keys and database credentials are read from `.env`, which is git-ignored.
+- API calls use timeouts and catch request and JSON errors; failures return an empty result and the pages show a warning instead of crashing.
+- Database writes use transactions: `commit` on success, `rollback` on error.
+- All SQL that takes user input uses parameterized queries (`%s`).
+- The custom query box on the SQL Queries page accepts `SELECT` and `WITH` queries only.
+- API keys and database credentials are read from `.env`, which is git-ignored.
 
 ## Known limitations
 
-* The free API quota limits how much real data can be loaded, which is why
-  synthetic sample data is used for the advanced analytics.
-* `catches` and `stumpings` are not provided by the API, so fielding points in
-  Q21 are 0 for the loaded players.
-* Some columns the live API does not provide (series dates, toss details) are
-  empty for real matches. They are filled only for the sample data.
+- The free API quota limits how much real data can be loaded, which is why synthetic sample data is used for the advanced analytics.
+- `catches` and `stumpings` are not provided by the API, so fielding points in Q21 are 0 for the loaded players.
+- Some columns the live API does not provide (series dates, toss details) are empty for real matches. They are filled only for the sample data.
 
 ## Future improvements
 
-* Store series dates and toss details when loading real matches.
-* Load more players and matches as API quota allows.
-* Add charts to the SQL Queries page and a Docker setup.
-* Deploy the app (for example on Streamlit Community Cloud with a hosted
-  MySQL database).
+- Store series dates and toss details when loading real matches.
+- Load more players and matches as API quota allows.
+- Add charts to the SQL Queries page and a Docker setup.
+- Deploy the app (for example, on Streamlit Community Cloud with a hosted MySQL database).
